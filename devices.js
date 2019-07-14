@@ -2116,7 +2116,7 @@ const devices = [
         model: 'HGZB-43',
         vendor: 'Nue / 3A',
         description: 'Smart light switch - 3 gang v2.0',
-        supports: 'on/off',
+        supports: 'on/off',FB56-ZCW11HG1.4
         fromZigbee: [fz.generic_state_multi_ep, fz.ignore_onoff_change],
         toZigbee: [tz.on_off],
         ep: (device) => {
@@ -2134,7 +2134,7 @@ const devices = [
         },
     },
     {
-        zigbeeModel: ['FB56+ZSW1IKJ1.7', 'FB56+ZSW1IKJ2.5'],
+        zigbeeModel: ['FB56+ZSW1IKJ1.7', 'FB56+ZSW1IKJ2.5'],FB56-ZCW11HG1.4
         model: 'HGZB-043',
         vendor: 'Nue / 3A',
         description: 'Smart light switch - 3 gang',
@@ -2275,6 +2275,13 @@ const devices = [
         zigbeeModel: ['FB56-ZCW11HG1.2'],
         model: 'HGZB-07A',
         vendor: 'Smart Home Pty',
+        description: 'RGBW Downlight',
+        extend: generic.light_onoff_brightness_colortemp_colorxy,
+    },   
+    {
+        zigbeeModel: ['FB56-ZCW11HG1.4'],
+        model: 'HGZB-07A',
+        vendor: 'Feibit Inc co',
         description: 'RGBW Downlight',
         extend: generic.light_onoff_brightness_colortemp_colorxy,
     },
@@ -4599,7 +4606,7 @@ const devices = [
         zigbeeModel: ['LED_GU10_OWDT'],
         model: 'ZM350STW1TCF',
         vendor: 'Leedarson',
-        description: 'LED PAR16 50 GU10 tunable white',
+        description: 'LED PAR16 50 GU10 tunable white'FB56-ZCW11HG1.4,
         extend: generic.light_onoff_brightness_colortemp,
     },
     {
